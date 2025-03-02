@@ -67,6 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 1rem;
 }
 
@@ -92,7 +93,7 @@ textarea {
   border: none;
   outline: none;
   border-radius: 1rem;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #6563c9;
   padding: 1rem;
   resize: none;
   color: #fff;
@@ -117,6 +118,17 @@ textarea::placeholder {
   outline: none;
   border-radius: 5rem;
   padding-inline: 1rem;
+  background: #6563c9;
+  color: #fff;
+  appearance: none;
+  background-image: url(./images/dropdown.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 0.9rem;
+  background-position-x: calc(100% - 1rem);
+}
+
+.options select option {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
